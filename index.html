@@ -147,6 +147,7 @@
   .proj-card:hover::after, .proj-card:focus-visible::after { transform:scaleX(1); }
 
   .proj-img { aspect-ratio:16/9; background:rgba(0,0,0,.2); display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden; border-bottom:1px solid var(--line); }
+  .proj-img img { width:100%; height:100%; object-fit:cover; display:block; }
   .proj-ph { display:flex; flex-direction:column; align-items:center; gap:.4rem; }
   .proj-ph svg { opacity:.12; }
   .proj-ph span { font-family:'JetBrains Mono',monospace; font-size:9px; color:var(--muted); letter-spacing:.1em; text-transform:uppercase; }
@@ -322,16 +323,16 @@
   <div class="sec-hd"><span class="sec-tag">Projects</span><span class="sec-line"></span><span class="sec-num">02</span></div>
   <div class="proj-grid">
     <a class="proj-card" href="project-autonomous-recruitment-robot.html" aria-label="See more about Autonomous Recruitment Robot">
-      <div class="proj-img"><div class="proj-badge">Mechanical</div><div class="proj-ph"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="2" y="5" width="28" height="22" rx="1.5" stroke="#e2c97e" stroke-width="1.2"/><circle cx="16" cy="16" r="4.5" stroke="#e2c97e" stroke-width="1.2"/><line x1="2" y1="23" x2="10" y2="15" stroke="#e2c97e" stroke-width="1.2"/><line x1="22" y1="15" x2="30" y2="23" stroke="#e2c97e" stroke-width="1.2"/></svg><span>Add photo</span></div><div class="proj-rev"></div><div class="proj-rev-l">A</div></div>
+      <div class="proj-img"><img src="images/RushBot/RushBot.png" alt="Autonomous recruitment robot CAD render"><div class="proj-badge">Mechanical</div><div class="proj-rev"></div><div class="proj-rev-l">A</div></div>
       <div class="proj-body"><div class="proj-meta"><span class="proj-id">PROJ-001</span><span class="proj-date-lbl">Nov 2024 – Jun 2025</span></div><div class="proj-title">Autonomous Recruitment Robot</div><p class="proj-desc">Spring-loaded flyer dispensing mechanism designed in CAD. Validated spring behavior, tolerances, and 3D print orientation for manufacturability.</p><div class="proj-tags"><span class="ptag">CAD</span><span class="ptag">Spring Analysis</span><span class="ptag">3D Print</span><span class="ptag">Tolerancing</span></div></div>
     </a>
     <a class="proj-card" href="project-timelyrx.html" aria-label="See more about TimelyRx Smart Medication Device">
-      <div class="proj-img"><div class="proj-badge">Personal</div><div class="proj-ph"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="2" y="5" width="28" height="22" rx="1.5" stroke="#e2c97e" stroke-width="1.2"/><circle cx="16" cy="16" r="4.5" stroke="#e2c97e" stroke-width="1.2"/><line x1="2" y1="23" x2="10" y2="15" stroke="#e2c97e" stroke-width="1.2"/><line x1="22" y1="15" x2="30" y2="23" stroke="#e2c97e" stroke-width="1.2"/></svg><span>Add photo</span></div><div class="proj-rev"></div><div class="proj-rev-l">B</div></div>
+      <div class="proj-img"><img src="images/TimelyRx/TimelyRx Image" alt="TimelyRx smart medication device CAD model"><div class="proj-badge">Personal</div><div class="proj-rev"></div><div class="proj-rev-l">B</div></div>
       <div class="proj-body"><div class="proj-meta"><span class="proj-id">PROJ-002</span><span class="proj-date-lbl">April 2025 - UCI BitHacks</span></div><div class="proj-title">TimelyRx — Smart Medication Device</div><p class="proj-desc">Arduino system with OLED display and SQLite database. Custom 3D-printed lock mechanism with real-time dose logging and display updates.</p><div class="proj-tags"><span class="ptag">Arduino</span><span class="ptag">SQLite</span><span class="ptag">OLED</span><span class="ptag">3D Print</span></div></div>
     </a>
-    <a class="proj-card" href="project-self-navigating-rover.html" aria-label="See more about Self-Navigating Rover">
-      <div class="proj-img"><div class="proj-badge">Software Lead</div><div class="proj-ph"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="2" y="5" width="28" height="22" rx="1.5" stroke="#e2c97e" stroke-width="1.2"/><circle cx="16" cy="16" r="4.5" stroke="#e2c97e" stroke-width="1.2"/><line x1="2" y1="23" x2="10" y2="15" stroke="#e2c97e" stroke-width="1.2"/><line x1="22" y1="15" x2="30" y2="23" stroke="#e2c97e" stroke-width="1.2"/></svg><span>Add photo</span></div><div class="proj-rev"></div><div class="proj-rev-l">C</div></div>
-      <div class="proj-body"><div class="proj-meta"><span class="proj-id">PROJ-003</span><span class="proj-date-lbl">Sep – Dec 2024</span></div><div class="proj-title">Self-Navigating Rover</div><p class="proj-desc">Arduino rover with IR tracking, PixyCam object detection, and PID controller for path correction and autonomous object retrieval.</p><div class="proj-tags"><span class="ptag">Arduino</span><span class="ptag">PID</span><span class="ptag">PixyCam</span><span class="ptag">C++</span></div></div>
+    <a class="proj-card" href="project-pc-cad-model.html" aria-label="See more about PC CAD Model">
+      <div class="proj-img"><img src="images/PC CAD Project/Exploded View" alt="Exploded view of custom PC CAD model"><div class="proj-badge">CAD Model</div><div class="proj-rev"></div><div class="proj-rev-l">C</div></div>
+      <div class="proj-body"><div class="proj-meta"><span class="proj-id">PROJ-003</span><span class="proj-date-lbl">Jun 2025</span></div><div class="proj-title">PC CAD Model</div><p class="proj-desc">Class CAD project modeling a custom PC assembly with exploded-view organization, component layout, and detailed part relationships.</p><div class="proj-tags"><span class="ptag">CAD</span><span class="ptag">Assembly</span><span class="ptag">Exploded View</span><span class="ptag">Modeling</span></div></div>
     </a>
   </div>
 </section>

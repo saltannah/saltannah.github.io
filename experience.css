@@ -144,6 +144,20 @@ h1 {
   padding:1rem;
 }
 
+.detail-image {
+  border:1px solid var(--line);
+  background:rgba(0,0,0,.18);
+  margin-bottom:2.25rem;
+  overflow:hidden;
+}
+.detail-image img {
+  width:100%;
+  max-height:520px;
+  object-fit:contain;
+  display:block;
+  background:#eef0f4;
+}
+
 .side-panel {
   border:1px solid var(--line);
   background:rgba(0,0,0,.18);
